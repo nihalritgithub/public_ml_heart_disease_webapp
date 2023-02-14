@@ -6,7 +6,7 @@ This is a temporary script file.
 """
 import numpy as np
 import pickle
-loaded_model=pickle.load(open("trained_model .sav",'rb'))
+loaded_model=pickle.load(open("trained_model.sav",'rb'))
 input_data=(53,1,0,140,203,1,0,155,1,3.1,0,0,3)
 input_numpy=np.asarray(input_data)
 input_data_reshape=input_numpy.reshape(1,-1)
